@@ -11,6 +11,9 @@
     <Copyright>© 2024 Ihsan Eren Delibas All rights reserved.</Copyright>
     <PackageIcon>icon.jpg</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/eren5854/ED.GenericRepository.git</RepositoryUrl>
+    <PackageTags>repository</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +22,10 @@
 
   <ItemGroup>
     <None Update="icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
